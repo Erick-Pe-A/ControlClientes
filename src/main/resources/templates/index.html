@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+    <head th:replace="layaout/plantilla :: head">
+        <title>Inicio</title>
+        <meta charset="UTF-8">
+    <body>
+        <header th:replace="layaout/plantilla :: header"></header>
+
+        <section th:replace="layaout/botonesAgregar :: botonesAgregar"></section>
+        <section th:replace="layaout/listadoClientes :: listadoClientes"></section>
+        <section th:replace="layaout/agregarCliente :: agregarCliente"></section>
+
+        <footer th:replace="layaout/plantilla :: footer"></footer>
+    </body>
+</html>
